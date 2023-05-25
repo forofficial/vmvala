@@ -1,0 +1,12 @@
+
+open docker
+
+download docker vs extension
+make a js file with console log
+docker file 
+
+terminal
+docker --version
+node name of file.js
+docker built -t foldernme .
+docker images
