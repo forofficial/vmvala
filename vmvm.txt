@@ -1,0 +1,54 @@
+new namevm1
+linux abuntu 64bit
+use and existing virtual hard disk
+select the amdk file
+
+vm2 ......
+
+
+file 
+preferences
+network
+natnetwork , click on plus sign
+
+
+vm1 
+right click settings
+network 
+attached to NAT network
+
+smae for vm2
+
+
+
+
+
+
+
+
+
+vagrant login
+
+ifconfig
+---check ip addresses
+ vm1 
+ ls
+ touch abc.txt
+ cat abc.txt
+ nano abc.txt
+  //write the content
+ control s and control x
+ 
+ vm2 
+ ls
+ 
+ vm1 
+ cat abc.txt
+ scp abc.txt vagrant@ipaddressvm2:/home/vagrant
+ yes
+ vagrant
+ 
+ vm2 
+ ls
+ cat abc.txt
+ 
