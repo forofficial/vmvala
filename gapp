@@ -1,0 +1,38 @@
+select a project
+new project
+name the project
+create
+
+activate clpoud shell
+gcloud projects list
+
+navigate to apis and services
+enable api and services
+search app engine api
+enable it
+
+
+to the console
+gcloud config set project "id of the project"
+
+go to console
+navigate to app engine and menu
+create n application
+
+shell
+gcloud app create
+select asia south
+git clone
+https:/github.com/GoogleCloudPlatform/python-docs-samples
+ls 
+cd appengine
+ls 
+cd standard_python3
+ls
+cd hello-world
+ls
+cat main.py
+python3 main.py
+ go to url
+ or web preview
+ 
